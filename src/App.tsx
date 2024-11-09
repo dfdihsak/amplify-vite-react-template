@@ -18,7 +18,7 @@ function App() {
   }
 
   return (
-    <main>
+    <main style={{ padding: "50px" }}>
       <h1 style={{ textAlign: "center", marginRight: "50px" }}>
         <img src={logo} width="300"></img>
       </h1>
