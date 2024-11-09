@@ -1,6 +1,7 @@
 // import { useEffect, useState } from "react";
 import type { Schema } from "../amplify/data/resource";
 import { generateClient } from "aws-amplify/data";
+import logo from "./logo.png";
 
 const client = generateClient<Schema>();
 function App() {
@@ -18,7 +19,9 @@ function App() {
 
   return (
     <main>
-      <h1><img></img></h1>
+      <h1 style={{ textAlign: "center", marginRight: "50px" }}>
+        <img src={logo} width="300"></img>
+      </h1>
       <h1>Join our waitlist for a free trial!</h1>
       <button onClick={createTodo}>Join Waitlist</button>
       {/* <ul>
