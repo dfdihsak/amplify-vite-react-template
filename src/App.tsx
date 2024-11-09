@@ -22,7 +22,7 @@ function App() {
       <h1 style={{ textAlign: "center", marginRight: "50px" }}>
         <img src={logo} width="300"></img>
       </h1>
-      <h1>Join our waitlist for a free trial!</h1>
+      <h1>The AI call center for restaurants</h1>
       <button onClick={createTodo}>Join Waitlist</button>
       {/* <ul>
         {todos.map((todo) => (
